@@ -251,3 +251,43 @@ body{
     font-size: 1rem;
     font-weight: 450;
 }
+/* <!-- Play Instantly,No Downloads No Installs. --> */
+.game{
+    /* border: 2px solid gold; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.game .content{
+    text-align: end;
+    width: 40%;
+}
+.game .content h1{
+    font-size: 3.5rem;
+}
+.game .content h1 p{
+    display: block;
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+.game .image-parent{
+    width: 500px;
+    height: 500px;
+    background-image: url(../images/Rectangle\ 55.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+    position: relative;
+}
+.game .image-parent
+.image-child{
+    background: url(../images/Rectangle\ 66.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: -60px;
+    left: -130px;
+}
