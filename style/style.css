@@ -63,6 +63,7 @@ body{
     position: sticky;
     top: 0;
     padding: 5px;
+    z-index: 1;
 }
 .navber{
     max-width: 1566px;
@@ -258,8 +259,12 @@ body{
     justify-content: space-between;
     align-items: center;
 }
-.game .content{
+.game1 .content{
     text-align: end;
+    width: 40%;
+}
+.game2 .content{
+    text-align: start;
     width: 40%;
 }
 .game .content h1{
@@ -272,6 +277,7 @@ body{
     background-clip:text;
 }
 .game .image-parent{
+    margin-top: 5rem;
     width: 500px;
     height: 500px;
     background-image: url(../images/Rectangle\ 55.png);
@@ -290,4 +296,26 @@ body{
     position: absolute;
     bottom: -60px;
     left: -130px;
+}
+
+.game .image-parent-2{
+    margin-top: 10rem;
+    width: 500px;
+    height: 500px;
+    background-image: url(../images/Rectangle\ 67.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+    position: relative;
+}
+.game .image-parent-2
+.image-child-2{
+    background: url(../images/Rectangle\ 78.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 250px;
+    height: 250px;
+    position: absolute;
+    bottom: -60px;
+    right: -130px;
 }
