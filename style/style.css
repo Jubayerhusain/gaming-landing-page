@@ -2,8 +2,11 @@
 *{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
+
 }
 body{
+    scroll-behavior: smooth;
     margin: 0;
     padding: 0;
     font-family: "Work Sans", sans-serif;
@@ -57,6 +60,9 @@ body{
 .header-section{
     width: 100%;
     background: var(--white4);
+    position: sticky;
+    top: 0;
+    padding: 5px;
 }
 .navber{
     max-width: 1566px;
@@ -156,4 +162,51 @@ body{
     display: flex;
     justify-content: start;
     align-items: center;
+}
+/* gamer-section style */
+.gamer-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: right;
+}
+.gamer-section 
+.content{
+    width: 35%;
+    flex-direction: column;
+}
+.gamer-section 
+.content h1{
+    font-size: 3rem;
+    font-weight: 700;
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    margin: 1rem 0rem;
+}
+.gamer-section
+.content p{
+    font-size: 1.2rem;
+    padding: 0.3rem ;
+    color: var(--black1);
+    line-height: 30px;
+}
+.gamer-section
+.content .g-btn{
+    width: 30%;
+    text-align: center;
+    margin-left: 58%;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+}
+.gamer-section
+.content h2{
+    font-size: 2rem;
+    color: var(--black1);
+}
+.gamer-section
+.content h2 p{
+    font-size: 1rem;
+    color: var(--black1);
+    font-weight: 500;
 }
