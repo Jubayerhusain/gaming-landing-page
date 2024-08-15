@@ -210,3 +210,44 @@ body{
     color: var(--black1);
     font-weight: 500;
 }
+/* Online Games Funny Videos section style */
+.game-and-video-section{
+    margin: 3rem auto;
+}
+.game-and-video-section .content h2{
+    font-size: 3rem;
+    text-align: center;
+}
+.game-and-video-section .content h2 p{
+    display: inline-block;
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+.game-and-video-section .content span{
+    display: block;
+    text-align: center;
+    color: var(--black1);
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+.game-and-video-section .gm-card{
+    margin: 1.5rem auto;
+    padding-left: 10px;
+}
+.game-and-video-section .gm-card .card{
+    width: 23%;
+    height: 450px;
+    padding: 10px;
+}
+.game-and-video-section .gm-card{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.game-and-video-section .gm-card p{
+    padding: 1rem 0;
+    color: var(--black2);
+    font-size: 1rem;
+    font-weight: 450;
+}
