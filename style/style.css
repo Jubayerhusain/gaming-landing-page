@@ -6,3 +6,46 @@ body{
     margin: 0;
     padding: 0;
 }
+/* color-var */
+:root{
+    --color1: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+    --color2: rgb(78, 197, 247);
+    --color3:rgb(83, 76, 100);
+    --color4:rgb(255, 255, 255);
+    --color5:rgb(11, 2, 35);
+    --color6: rgb(255, 66, 165);
+}
+/* share style */
+.btn1{
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    color: var(--color4);
+    background-color: var(--color1);
+    text-transform: uppercase;
+}
+.btn2{
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    color: var(--color4);
+    background-color: var(--color2);
+    text-transform: uppercase;
+}
+.btn3{
+    border: none;
+    border-radius: 1rem;
+    font-size: 1.5rem;
+    padding: 10px 20px;
+    color: var(--color6);
+    background-color: var(--color4);
+    text-transform: uppercase;
+}
+.container{
+    max-width: 1566px;
+    margin: 0 auto;
+    background: var(--color4);
+    border: 2px solid green;
+}
