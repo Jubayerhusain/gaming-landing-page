@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "Work Sans", sans-serif;
 }
 /* color-var */
 :root{
@@ -48,4 +50,58 @@ body{
     margin: 0 auto;
     background: var(--color4);
     border: 2px solid green;
+}
+/* header-section-style */
+.header-section{
+    width: 100%;
+    background: var(--color4);
+}
+.navber{
+    max-width: 1566px;
+    margin: 2rem auto;
+    background: var(--color4);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.navber .nav-left{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.navber .nav-left img{
+    width: 60%;
+    height: 20%;
+}
+.navber .nav-left p{
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.navber .nav-left p::first-letter{
+    color: var(--color6);
+}
+.navber .nav-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    font-size: 1.2rem;
+}
+.navber .nav-right p{
+    text-transform: capitalize;
+    font-weight: 500;
+    color: var(--color5);
+}
+.navber .nav-right .follow-us{
+    border-radius: 8px;
+    background: rgba(11, 2, 35, 0.1);
+    padding: 10px 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    align-items: center;
+}
+.navber .nav-right 
+.follow-us .youtube{
+    color: red;
 }
