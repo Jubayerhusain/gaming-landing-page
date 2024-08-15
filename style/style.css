@@ -10,56 +10,58 @@ body{
 }
 /* color-var */
 :root{
-    --color1: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
+    --bg-pink1: linear-gradient(90.00deg, rgb(255, 66, 165) 13.134%,rgb(255, 66, 165) 87.942%);
     --color2: rgb(78, 197, 247);
-    --color3:rgb(83, 76, 100);
-    --color4:rgb(255, 255, 255);
-    --color5:rgb(11, 2, 35);
-    --color6: rgb(255, 66, 165);
+    --black1:rgb(83, 76, 100);
+    --white4:rgb(255, 255, 255);
+    --black2:rgb(11, 2, 35);
+    --pink: rgb(255, 66, 165);
 }
 /* share style */
 .btn1{
     border: none;
-    border-radius: 1rem;
-    font-size: 1.5rem;
-    padding: 10px 20px;
-    color: var(--color4);
-    background-color: var(--color1);
-    text-transform: uppercase;
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding: 15px 30px;
+    color: var(--white4);
+    background-color:var(--pink);
+    text-transform: uppercase; 
 }
 .btn2{
     border: none;
-    border-radius: 1rem;
-    font-size: 1.5rem;
-    padding: 10px 20px;
-    color: var(--color4);
+    border-radius: 1.5rem;
+    font-size: 1.2rem;
+    padding: 15px 30px;
+    color: var(--white4);
+    font-weight: 500;
     background-color: var(--color2);
     text-transform: uppercase;
 }
 .btn3{
     border: none;
     border-radius: 1rem;
-    font-size: 1.5rem;
-    padding: 10px 20px;
-    color: var(--color6);
-    background-color: var(--color4);
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 15px 30px;
+    color: var(--pink);
+    background-color: var(--white4);
     text-transform: uppercase;
 }
 .container{
     max-width: 1566px;
     margin: 0 auto;
-    background: var(--color4);
-    border: 2px solid green;
+    background: var(--white4);
 }
 /* header-section-style */
 .header-section{
     width: 100%;
-    background: var(--color4);
+    background: var(--white4);
 }
 .navber{
     max-width: 1566px;
     margin: 2rem auto;
-    background: var(--color4);
+    background: var(--white4);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -78,7 +80,7 @@ body{
     font-weight: 600;
 }
 .navber .nav-left p::first-letter{
-    color: var(--color6);
+    color: var(--pink);
 }
 .navber .nav-right{
     display: flex;
@@ -104,4 +106,54 @@ body{
 .navber .nav-right 
 .follow-us .youtube{
     color: red;
+}
+/* main-section-style */
+.main-section{
+    width: 100%;
+    background: var(--white4);
+}
+.main-section
+.banner-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.main-section
+.banner-section
+.content h2{
+    padding: 0;
+    font-size: 3.5rem;
+    font-weight: 600;
+    color: var(--black2);
+}
+.main-section
+.banner-section
+.content h1{
+    font-size: 6rem;
+    font-weight: 800;
+    padding: 0.5rem 0;
+    background: linear-gradient(180.00deg, rgb(249, 72, 178),rgb(135, 88, 241));
+    -webkit-text-fill-color:transparent;
+    background-clip:text;
+}
+.main-section
+.banner-section
+.content p{
+    font-size: 1.5rem;
+    padding: 0.3rem ;
+    color: var(--black1);
+}
+.main-section
+.banner-section
+.content .play,.download{
+    color: var(--pink);
+}
+.main-section
+.banner-section
+.content .btn-section{
+    margin-top: 1rem;
+    gap: 1rem;
+    display: flex;
+    justify-content: start;
+    align-items: center;
 }
