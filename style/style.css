@@ -43,13 +43,16 @@ body{
 }
 .btn3{
     border: none;
-    border-radius: 1rem;
-    font-size: 2rem;
+    border-radius: 2rem;
+    font-size: 1.1rem;
     font-weight: 500;
     padding: 15px 30px;
     color: var(--pink);
     background-color: var(--white4);
     text-transform: uppercase;
+    text-align: center;
+    width: 200px;
+    margin-top: 1rem;
 }
 .container{
     max-width: 1566px;
@@ -318,4 +321,50 @@ body{
     position: absolute;
     bottom: -60px;
     right: -130px;
+}
+/* career-section */
+.career-section{
+    background-color:rgb(255, 66, 165);
+}
+.career-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 10rem;
+    background-color: transparent;
+}
+.career-container
+.head-content h1{
+    font-size: 3rem;
+    color: #fff;
+}
+.career-container
+.head-content p{
+    font-size: 1rem;
+    color: #fff;
+    line-height: 30px;
+}
+.career-container
+.all-career{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.career-container
+.all-career .left{
+    text-align: left;
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 30px;
+}
+.career-container
+.all-career .right{
+    text-align: right;
+    font-size: 1.2rem;
+    color: #fff;
+    line-height: 30px;
+}
+.career-contain .btn{
+
 }
