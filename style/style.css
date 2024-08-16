@@ -324,6 +324,8 @@ body{
 }
 /* career-section */
 .career-section{
+    margin: auto;
+    max-width: 1920px;
     background-color:rgb(255, 66, 165);
 }
 .career-container{
@@ -386,4 +388,61 @@ body{
     align-items: center;
     margin: 2rem;
     padding: 1rem;
+}
+
+/* footer-section */
+footer{
+    max-width: 1920px;
+    background: rgb(11, 2, 35);
+}
+.footer-section{
+    flex-direction: column;
+    background: rgb(11, 2, 35);
+}
+.footer-section .brand{
+    color: #fff;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 20%;
+    font-size: 2.5rem;
+    padding-top: 5rem;
+    margin: 1rem auto;;
+}
+.footer-section .brand p{
+    padding: 0rem 1rem;
+}
+.footer-section .section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 50%;
+    margin: 2rem auto;
+}
+.footer-section .section p{
+    color: #fff;
+    font-size: 1rem;
+}
+.footer-section .section2{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 3rem auto;
+}
+.footer-section .section2 i{
+    color: #fff;
+    font-size: 1.5rem;
+}
+.footer-section .section3{
+    width: 40%;
+}
+.footer-section .section3 p{
+    font-size: 0.8rem;
+}
+.footer-section h5{
+    text-align: center;
+    color: #fff;
+    font-weight: normal;
+    padding-bottom: 5rem;
 }
