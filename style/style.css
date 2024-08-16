@@ -364,7 +364,26 @@ body{
     font-size: 1.2rem;
     color: #fff;
     line-height: 30px;
+    padding-left: 3rem;
 }
-.career-contain .btn{
-
+/* online-game-section */
+/* online-game-section */
+.online-game-section{
+    margin-top: 5rem;
+}
+.online-game-section
+.section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.online-game-section
+.section .game-child{
+    font-size: 10px;
+    font-weight: 400;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 2rem;
+    padding: 1rem;
 }
